@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    display: flex;
+    align-items:center;
+    height: 63px;
+    background-color:white;
+    border-bottom:0.5px solid black;
+    
+}
+.menu{
+    display: flex;
+    gap: 21px;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.serch{
+    position: relative;
+    margin-left: 5rem;
+}
+.button{
+ display: flex;
+ gap: 15px;
+ margin-left: 1rem;
+}
+select{
+    border: none;
+}
+#Login{
+    font-size: 14px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+#Sign{
+    width: 7rem;
+    height: 3rem;
+    border-radius: 5px 5px;
+    font-size: 17px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+#Sign:hover{
+    background-color: green;
+    color: white;
+}
+input{
+    height: 30px;
+    width:250px ;
+    border-radius:10px 10px ;
+}
+/* next step */
+.next{
+    display: flex;
+    align-items: center;
+    height: 91vh;
+}
+.contain{
+    width: 50vw;
+    height: 85vh;
+}
+.main-c{
+    margin-top: 23%;
+    margin-left: 10%;
+}
+.logo-image{
+    margin-left: 10px;
+}
+#button-s{
+    margin-top: 1.2rem;
+    font-size: 1.1rem;
+    height: 3.5rem;
+    width: 10rem;
+    border-radius: 10px 10px;
+    cursor: pointer;
+}
+#button-s:hover{
+    background-color: green;
+    color: white;
+}
+/* nex step */
+/* */
+.next-step{
+    display: flex;
+    align-items: center;
+    height: 65vh;
+}
+.contain-c{
+    margin-left: 2rem;
+}
+.co-n{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+.button.n{
+    margin-top: 2rem;
+    display: flex;
+    margin-left :1px;
+    gap: 2rem;
+}.contain-n{
+    margin-left: 20px;
+}
+#n-s{
+    height: 3rem;
+    width:10rem;
+}
+#n-l{
+    height: 3rem;
+    width:11rem;
+}
+#n-s:hover{
+    background-color: green;
+    color: white;
+}
+#n-l:hover{
+    background-color: green;
+    color: white;
+}
